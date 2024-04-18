@@ -8,3 +8,14 @@ def main(data:str):
     """
     
 # Read data from file
+    a=[]
+    for i in s:
+        if i.isalpha():
+
+            a+=i
+    return a
+    
+# Read data from file
+f=open('data\data04.txt',mode="r")
+s=f.read()
+print(main(s))

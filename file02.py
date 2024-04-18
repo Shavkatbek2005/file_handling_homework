@@ -8,3 +8,6 @@ def main(data:str):
     """
 
 # Read data from file
+f=open('data\data02.txt',mode="w")
+f.write()
+print(main(f))
